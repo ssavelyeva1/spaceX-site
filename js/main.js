@@ -6,3 +6,13 @@ var instance = new vidbg('.video', {
 });
 
 var rellax = new Rellax('.rocket');
+
+function removeParallax() {
+  if (window.innerWidth < 576) {
+      rellax.destroy();
+  } else {
+      rellax.refresh();
+  }
+}
+removeParallax();
+addEventListener("resize", removeParallax, false)
