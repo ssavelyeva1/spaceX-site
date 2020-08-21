@@ -15,4 +15,7 @@ function removeParallax() {
   }
 }
 removeParallax();
-addEventListener("resize", removeParallax, false)
+addEventListener("resize", removeParallax, false);
+
+AOS.init();
+
