@@ -9,4 +9,4 @@ Project is created with:
 * AOS.js library - Animate on scroll (https://github.com/michalsnik/aos)
 
 # GitHub Pages
-https://aliaksandrasavelyeva.github.io/spaceX-site/
+https://ssavelyeva1.github.io/spaceX-site/
